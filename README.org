@@ -1,6 +1,7 @@
 * Introduction
   A test for org-mode
 
-* TODO [2/2]
+* TODO [2/3]
   - [X] OK
   - [X] Not OK
+  - [ ] New own
