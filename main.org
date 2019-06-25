@@ -4,3 +4,25 @@
 * Second Heading
 ** Second-First Heading
    Hello world.
+
+   #+begin_src python :results output
+     print("hello world")
+   #+end_src
+
+   #+RESULTS:
+   : hello world
+
+   #+begin_src python
+     plt.plot()
+   #+end_src
+
+   #+RESULTS:
+   [[img.jpg]]
+
+
+   #+begin_src python
+     plt.plot()
+   #+end_src
+
+   #+RESULTS:
+   [[file:img.jpg]]
