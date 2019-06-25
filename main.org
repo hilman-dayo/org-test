@@ -5,14 +5,14 @@
 ** Second-First Heading
    Hello world.
 
-   #+begin_src python :results output
+   #+begin_src python :results output :exports both
      print("hello world")
    #+end_src
 
    #+RESULTS:
    : hello world
 
-   #+begin_src python
+   #+begin_src python :exports both
      plt.plot()
    #+end_src
 
@@ -20,7 +20,7 @@
    [[img.jpg]]
 
 
-   #+begin_src python
+   #+begin_src python :exports both
      plt.plot()
    #+end_src
 
